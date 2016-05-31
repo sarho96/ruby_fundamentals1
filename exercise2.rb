@@ -10,4 +10,7 @@ puts num1.to_i + num2 #output on console num1 + num2 with num1 converting to int
 
 result1 = 45628 #declared variable result1 and assigned value 45628
 result2 = 7839 #declared variable result2 and assigned valye 7839
-puts "The result of #{result1} and #{result2} is #{result1 * result2}" 
+puts "The result of #{result1} and #{result2} is #{result1 * result2}"
+
+
+puts "the value expression of (10<20 && 30 <20) || !(10==11) is true"
