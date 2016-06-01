@@ -5,7 +5,8 @@ print "Please provide the temperature in Fahrenheit: "
 
 #call your method and pass it to the user input as a parameter
 def fahrenheit (user_input)
-  puts "the Fahrenheit is #{user_input}"
+  celcius = (user_input - 32) * 5/9
+  puts "the conversion of #{user_input} Fahrenheit to Celcius is #{celcius}"
   return
 end
 
